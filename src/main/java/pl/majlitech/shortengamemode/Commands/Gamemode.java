@@ -10,17 +10,22 @@ import pl.majlitech.shortengamemode.LanguageManager;
 public class Gamemode implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
-        if (!(sender instanceof Player && !(args.length ==2))) {
-            sender.sendMessage(String.format(LanguageManager.get("not-enough-args-console"), command.getName()));
-            return true;
-        }
-        Player p = (Player) sender;
-        p.sendMessage(String.valueOf(p.hasPermission(ConfigManager.get("permission-node"))));
-        if ((p.hasPermission(ConfigManager.get("permission-node"))) || !Boolean.parseBoolean(ConfigManager.get("enable-permissions"))) {
-            p.sendMessage(LanguageManager.get("no-permission"));
-            return true;
-        }
+        if ( sender instanceof Player ) {
+            Player p = (Player) sender;
+            p.sendMessage(String.valueOf(Boolean.parseBoolean(ConfigManager.get("enable-permissions"))));
+            if ( !(p.hasPermission(ConfigManager.get("permission-node"))) && Boolean.parseBoolean(ConfigManager.get("enable-permissions")) ) {
+                p.sendMessage(LanguageManager.get("no-permission"));
+                return true;
+            }
 
+        } else {
+            if ( !(args.length == 2) ) {
+                sender.sendMessage(String.format(LanguageManager.get("not-enough-args-console"), command.getName()));
+                return true;
+
+            }
+
+        }
         return true;
     }
 }
