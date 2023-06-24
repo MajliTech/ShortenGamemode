@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShortenGamemode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShortenGamemode_jar</output-path>
+    <root id="archive" name="ShortenGamemode.jar">
+      <element id="module-output" name="ShortenGamemode" />
+    </root>
+  </artifact>
+</component>
