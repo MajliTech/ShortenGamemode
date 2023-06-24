@@ -32,8 +32,12 @@ public class LanguageManager {
 
     public static String get(String key)
     {
-        return ChatColor.translateAlternateColorCodes('&',info.getString("prefix"))+" "+ChatColor.RESET+ChatColor.translateAlternateColorCodes('&',info.getString(key));
+        return ChatColor.translateAlternateColorCodes('&',info.getString("prefix"))+ChatColor.RESET+ChatColor.translateAlternateColorCodes('&',info.getString(key));
 
     }
+    public static String getWithoutPrefix(String key)
+    {
+        return ChatColor.translateAlternateColorCodes('&',ChatColor.translateAlternateColorCodes('&',info.getString(key)));
 
+    }
 }

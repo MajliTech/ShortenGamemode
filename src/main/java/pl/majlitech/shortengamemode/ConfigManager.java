@@ -1,6 +1,5 @@
 package pl.majlitech.shortengamemode;
 
-import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 

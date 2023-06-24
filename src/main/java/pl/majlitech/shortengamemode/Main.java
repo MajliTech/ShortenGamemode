@@ -1,6 +1,5 @@
 package pl.majlitech.shortengamemode;
 
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import pl.majlitech.shortengamemode.Commands.Gamemode;
 
