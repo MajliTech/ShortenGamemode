@@ -1,4 +1,6 @@
-# ShortenGamemode
+<img align="center" src="media/logo.png">
+<h1 align="center">ShortenGamemode</h1>
+
 [![spigot](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/spigot_vector.svg)](https://www.spigotmc.org/resources/shortengamemode.110736/)
 [![paper](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/paper_vector.svg)](https://forums.papermc.io/threads/shortengamemode.812/)
 ## Why does this plugin exist?
