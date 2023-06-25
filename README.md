@@ -1,5 +1,6 @@
 # ShortenGamemode
-
+[![spigot](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/spigot_vector.svg)](https://www.spigotmc.org/resources/shortengamemode.110736/)
+[![paper](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/paper_vector.svg)](https://forums.papermc.io/threads/shortengamemode.812/)
 ## Why does this plugin exist?
 This plugin exists, because I couldn't find a small and lightweight plugin to do this.
 
@@ -21,7 +22,7 @@ not-enough-args-or-too-many: "&cInvalid command!\nUsage: /{0} <survival/creative
 no-permission: "&cYou don't have the necessary permission node to execute this command!"
 player-offline: "&cThis player is offline!"
 no-gamemode-permission: "&cYou don't have the permission to change your gamemode to {0} mode!" # {0} is the gamemode. Can be skipped
-change-notify: "&2Your gamemode has been changed to {0} by {1}" # {0} is the gamemode, {1} is the person who did it. Can be skipped
+change-notify: "&2Your gamemode has been changed to {0} by {1}" # {0} is the gamemode, {1} is the person who did it. Can be skipped[Spigot](https://www.spigotmc.org/resources/shortengamemode.110736/)
 change-success: "&2You have changed {1}'s gamemode to {0} ." # {0} is the gamemode, {1} is the person you changed the gamemode. Can be skipped
 your-change-success: "&2You have changed your gamemode to {0} mode." # {0} is the gamemode. Can be skipped
 change-notify-console: "&2Your gamemode has been changed to {0} mode." # {0} is the gamemode. Can be skipped
