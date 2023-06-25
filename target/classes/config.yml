@@ -1,8 +1,0 @@
-enable-permissions: true # This is a boolean! Can be false or true
-permission-node: pl.majlitech.admin.gamemode
-enable-specific-gamemode-permissions: true # This is (also) a boolean! Can be false or true
-permission-node-survival: pl.majlitech.admin.gamemode.survival
-permission-node-creative: pl.majlitech.admin.gamemode.creative
-permission-node-adventure: pl.majlitech.admin.gamemode.adventure
-permission-node-spectator: pl.majlitech.admin.gamemode.spectator
-
