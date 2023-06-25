@@ -25,6 +25,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+
                 </configuration>
             </plugin>
             <plugin>
@@ -34,10 +35,12 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
+
                         <goals>
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <outputFile>out/artifacts/ShortenGamemode.jar</outputFile>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
                     </execution>
