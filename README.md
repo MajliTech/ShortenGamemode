@@ -1,4 +1,6 @@
-<img align="center" src="media/logo.png">
+<p align="center">
+<img alt="ShortenGamemode logo" height=256px src="media/logo.png">
+</p>
 <h1 align="center">ShortenGamemode</h1>
 
 [![spigot](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/spigot_vector.svg)](https://www.spigotmc.org/resources/shortengamemode.110736/)
