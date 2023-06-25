@@ -26,7 +26,30 @@ public class LanguageManager {
         }
 
         info = YamlConfiguration.loadConfiguration(languagefile);
+        int ver=info.getInt("version");
+        if (ver!=2) {
+            if (Boolean.parseBoolean(ConfigManager.get("force-new-messages"))) {
+                try {
+                    Main.getInstance().saveResource("messages.yml", true);
+                } catch(Exception e)
+                {
+                    Main.getInstance().getLogger().warning("Couldn't save messages file, shutting down!");
+                    Main.getInstance().getPluginLoader().disablePlugin(Main.getInstance());
+                }
+            } else {
+            Main.getInstance().getLogger().warning("!!!! OLD MESSAGES DETECTED !!!!");
+            Main.getInstance().getLogger().warning("Please add the new messages file and update the version to 2.");
+            Main.getInstance().getLogger().warning("If you didn't change anything in the messages, ");
+            Main.getInstance().getLogger().warning("you probably want to add \"force-new-messages: true\" to config.");
+            Main.getInstance().getLogger().warning("If you changed it, then get the new messages file from");
+            Main.getInstance().getLogger().warning("https://github.com/MajliTech/ShortenGamemode/blob/stable/src/main/resources/messages.yml");
+            Main.getInstance().getLogger().warning("and update it according to your needs.");
+            Main.getInstance().getLogger().warning("The plugin is now shutting down.");
+            Main.getInstance().getLogger().warning("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            Main.getInstance().getLogger().info("");
+            Main.shutdown = true;}
 
+        }
 
     }
 

@@ -1,6 +1,6 @@
 prefix: "&3&l[SG] "
-not-enough-args-or-too-many-console: "&cNot enough args or too many!\nUsage: /{0} <survival/creative/adventure/spectator/0/1/2/3> <player name>" # {0} being the command run. Can be skipped.
-not-enough-args-or-too-many: "&cInvalid command!\nUsage: /{0} <survival/creative/adventure/spectator/0/1/2/3> [player name]" # {0} being the command run. Can be skipped
+not-enough-args-or-too-many-console: "&cInvalid usage!\nUsage: /{0} <survival/creative/adventure/spectator/0/1/2/3/your alias> <player name>" # {0} being the command run. Can be skipped.
+not-enough-args-or-too-many: "&cInvalid usage!\nUsage: /{0} <survival/creative/adventure/spectator/0/1/2/3/your alias> [player name]" # {0} being the command run. Can be skipped
 no-permission: "&cYou don't have the necessary permission node to execute this command!"
 player-offline: "&cThis player is offline!"
 no-gamemode-permission: "&cYou don't have the permission to change your gamemode to {0} mode!" # {0} is the gamemode. Can be skipped
@@ -12,3 +12,4 @@ survival: "survival"
 creative: "creative"
 adventure: "adventure"
 spectator: "spectator"
+version: 2 # DO NOT TOUCH!!!

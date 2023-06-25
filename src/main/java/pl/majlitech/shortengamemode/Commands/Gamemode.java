@@ -94,20 +94,50 @@ public class Gamemode implements CommandExecutor {
             case "0":
             case "survival":
                 setGamemode(sender, t, GameMode.SURVIVAL);
-                break;
+                return true;
             case "1":
             case "creative":
                 setGamemode(sender, t, GameMode.CREATIVE);
-                break;
+                return true;
             case "2":
             case "adventure":
                 setGamemode(sender, t, GameMode.ADVENTURE);
-                break;
+                return true;
             case "3":
             case "spectator":
                 setGamemode(sender, t, GameMode.SPECTATOR);
-                break;
+                return true;
+
         }
+        for (String alias:
+        ConfigManager.getLists("survival-aliases")) {
+            if (alias.equals(args[0])) {
+                setGamemode(sender,t,GameMode.SURVIVAL);
+                return true;
+            }
+        }
+        for (String alias:
+                ConfigManager.getLists("creative-aliases")) {
+            if (alias.equals(args[0])) {
+                setGamemode(sender,t,GameMode.CREATIVE);
+                return true;
+            }
+        }
+        for (String alias:
+                ConfigManager.getLists("adventure-aliases")) {
+            if (alias.equals(args[0])) {
+                setGamemode(sender,t,GameMode.ADVENTURE);
+                return true;
+            }
+        }
+        for (String alias:
+                ConfigManager.getLists("spectator-aliases")) {
+            if (alias.equals(args[0])) {
+                setGamemode(sender,t,GameMode.SPECTATOR);
+                return true;
+            }
+        }
+        sender.sendMessage();
         return true;
     }
 }
