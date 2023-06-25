@@ -38,7 +38,7 @@ public class ConfigManager {
                 Main.getInstance().getLogger().warning("If you didn't change anything in the config, ");
                 Main.getInstance().getLogger().warning("you probably want to add \"force-new-config: true\" to it.");
                 Main.getInstance().getLogger().warning("If you changed it, then get the new config from");
-                Main.getInstance().getLogger().warning("https://github.com/MajliTech/ShortenGamemode/blob/stable/src/main/resources/config.yml");
+                Main.getInstance().getLogger().warning("https://github.com/MajliTech/ShortenGamemode/blob/main/src/main/resources/config.yml");
                 Main.getInstance().getLogger().warning("and update it according to your needs.");
                 Main.getInstance().getLogger().warning("The plugin is now shutting down.");
                 Main.getInstance().getLogger().warning("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
