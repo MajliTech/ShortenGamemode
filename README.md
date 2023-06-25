@@ -51,7 +51,7 @@ permission-node-spectator: pl.majlitech.admin.gamemode.spectator
 ## I am convinced. How to install it on my server?
 There are multiple ways to do so.
 1. Stable
-    - If you want a stable build of the plugin, download it from GitHub Releases.
+    - If you want a stable build of the plugin, download it from [GitHub Releases](https://github.com/MajliTech/ShortenGamemode/releases).
 2. Dev
-    - If you would like to try new features, download artifacts from Actions. 
+    - If you would like to try new features, download artifacts from [Actions](https://github.com/MajliTech/ShortenGamemode/actions). 
 
