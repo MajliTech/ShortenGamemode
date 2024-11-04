@@ -14,7 +14,7 @@ import java.text.MessageFormat;
 public class Gamemode implements CommandExecutor {
     public static String formatString(String template, Object... args) {
         for (int i = 0; i < args.length; i++) {
-            String placeholder = "\\{" + i + "\\}";
+            String placeholder = "\\{" + i + "}";
             template = template.replaceAll(placeholder, String.valueOf(args[i]));
         }
         return template;

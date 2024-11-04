@@ -5,10 +5,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import pl.majlitech.shortengamemode.ConfigManager;
-import pl.majlitech.shortengamemode.StringsManager;
-
-import java.lang.reflect.Array;
-import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
