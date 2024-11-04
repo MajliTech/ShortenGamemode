@@ -74,7 +74,7 @@ public class Gamemode implements CommandExecutor {
                     return true;
                 }
             } else {
-                p.sendMessage(StringsManager.get("not-enough-args-or-too-many"));
+                p.sendMessage(MessageFormat.format(StringsManager.get("not-enough-args-or-too-many"), command.getName()));
                 return true;
 
             }
@@ -137,7 +137,7 @@ public class Gamemode implements CommandExecutor {
                 return true;
             }
         }
-        sender.sendMessage();
+        sender.sendMessage(MessageFormat.format(StringsManager.get("not-enough-args-or-too-many"), command.getName()));
         return true;
     }
 }
