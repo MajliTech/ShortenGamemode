@@ -20,8 +20,10 @@ public final class Main extends JavaPlugin{
             this.getCommand("gm").setExecutor(new Disabled());
             return;
         }
-        this.getCommand("gamemode").setExecutor(new Gamemode());
         this.getCommand("gm").setExecutor(new Gamemode());
+        this.getCommand("gamemode").setExecutor(new Gamemode());
+        this.getCommand("gm").setTabCompleter(new pl.majlitech.shortengamemode.TabCompleter.Gamemode());
+        this.getCommand("gamemode").setTabCompleter(new pl.majlitech.shortengamemode.TabCompleter.Gamemode());
     }
 
     public static Main getInstance() {
