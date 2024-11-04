@@ -1,6 +1,5 @@
 package pl.majlitech.shortengamemode;
 
-import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import pl.majlitech.shortengamemode.Commands.Disabled;
@@ -23,7 +22,6 @@ public final class Main extends JavaPlugin{
         }
         this.getCommand("gamemode").setExecutor(new Gamemode());
         this.getCommand("gm").setExecutor(new Gamemode());
-        new Metrics(this, 18871);
     }
 
     public static Main getInstance() {
