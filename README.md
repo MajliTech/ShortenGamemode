@@ -9,8 +9,7 @@
 This plugin exists, because I couldn't find a small and lightweight plugin to do this.
 
 ## What versions does this plugin support?
- - Paper 1.13 - 1.20
- - Spigot 1.13 - 1.20
+ - Paper & Spigot 1.13.x - 1.21.x
 
 ## What is the functionality of this plugin?
 The plugin aims to be simple in use, while being very customizable. It's features include:
