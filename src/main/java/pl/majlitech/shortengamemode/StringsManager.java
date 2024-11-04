@@ -6,9 +6,9 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
 
-public class LanguageManager {
+public class StringsManager {
     private static FileConfiguration info;
-    public LanguageManager()
+    public StringsManager()
     {
         File languagefile = new File(Main.getInstance().getDataFolder(), "messages.yml");
 

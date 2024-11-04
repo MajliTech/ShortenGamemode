@@ -14,7 +14,7 @@ public final class Main extends JavaPlugin{
         instance=this;
 
         new ConfigManager();
-        new LanguageManager();
+        new StringsManager();
         if (shutdown) {
             Bukkit.getPluginManager().registerEvents(new Events(),this);
             this.getCommand("gamemode").setExecutor(new Disabled());
