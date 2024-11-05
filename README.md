@@ -1,10 +1,19 @@
 <p align="center">
-<img alt="ShortenGamemode logo" height=256px src="media/logo.png">
+<img alt="ShortenGamemode logo" height=256px src="https://github.com/MajliTech/ShortenGamemode/raw/main/media/logo.png">
 </p>
 <h1 align="center">ShortenGamemode</h1>
-
+<center>
+  
+  
 [![spigot](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/spigot_vector.svg)](https://www.spigotmc.org/resources/shortengamemode.110736/)
+  
+  
 [![paper](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/supported/paper_vector.svg)](https://hangar.papermc.io/MajliTech/ShortenGamemode)
+  
+  
+  </center>
+    
+    
 ## Why does this plugin exist?
 This plugin exists, because I couldn't find a small and lightweight plugin to do this.
 
