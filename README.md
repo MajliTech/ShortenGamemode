@@ -1,3 +1,10 @@
+# Moved over to codeberg
+
+Check the new place where the repo lives: https://codeberg.org/techus/ShortenGamemode
+
+---
+
+
 <p align="center">
 <img alt="ShortenGamemode logo" height=256px src="https://github.com/MajliTech/ShortenGamemode/raw/main/media/logo.png">
 </p>
